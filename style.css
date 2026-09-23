@@ -1,1 +1,20 @@
 
+button{
+    bckgroun-color: #25031d
+    color: white;
+    border: none;
+    padding:10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+button:hover {
+     background-color: #884879;
+}
+
+.curtir {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+}
