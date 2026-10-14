@@ -1,20 +1,118 @@
+:root{
+    --cor-fundo:#87d4a5;
+    --cor-texto:#222222;
+    --cor-principal:#156919;
+    --cor-segundaria:#9b4d83;
+    --cor-hover:#c77dff;
+    --cor-superficie:#white;
+    --cor-card:#962eb3;
+    --cor-legenda: #555555;
+    --cor-clara: #white;
+    --cor-rodape: #c72f2f;
+}
 
-button{
-    bckgroun-color: #25031d
-    color: white;
-    border: none;
-    padding:10px 15px;
-    border-radius: 8px;
-    cursor: pointer;
+body{
+background-color: var(--cor-fundo);
+color: var(--cor-texto);
+font-family: Arial, sans-serif;
+ margin: 0;
+}
+
+header{
+    backgoun-color: var(--cor-principal);
+    color: var(--cor-clara);
+    text-align: center;
+    padding: 30px;
 
 }
 
+h1{
+    font-size: 36px;
+
+}
+
+h2{
+    color: var(--cor-principal);
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: var(--cor-clara);
+    text-decoration: none;
+    background-color: var(--cor-segundaria);
+    padding: 10px 15px;
+    margin: 5px;
+    display: inline-block;
+}
+
+nav- a:hover {
+    background-color:#6b2d5c
+}
+
+main {
+    width: 80%;
+    margin: alto;
+}
+
+section {
+    background-color: var(--cor-superficie);
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+figcaption {
+    text-align: center;
+    font-size: 14px;
+    color: var(--cor-legenda);
+    margin-top: 8px;
+}
+
+.card {
+    background-color: var(--cor-card);
+    padding: 15px;
+    margin: 25px 0;
+    border-left: 6px solid var(--cor-principal);
+    border-radius: 10px;
+
+}
+
+card h3{
+    margin-top: 0;
+}
+
+footer{
+    background-color: var(--cor-principal);
+    color: var(--cor-clara);
+    text-align:center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+button {
+background-color: var(--cor-principal);
+      color: var(--cor-clara);
+      border:none
+      padding: 10px 15px;
+      border-radius: 8px;
+      cursor: pointer;    
+}                                                
+
 button:hover {
-     background-color: #884879;
+    background-color: var(--)
 }
 
 .curtir {
-    display: block;
-    width: fit-content;
+    display:block;
+    width:fit-content;
     margin: 20px auto;
 }
