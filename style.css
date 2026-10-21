@@ -1,14 +1,14 @@
 :root{
-    --cor-fundo:#87d4a5;
+    --cor-fundo:#e4bae4;
     --cor-texto:#222222;
-    --cor-principal:#156919;
+    --cor-principal:#c9539c;
     --cor-segundaria:#9b4d83;
-    --cor-hover:#c77dff;
+    --cor-hover:#f045cb;
     --cor-superficie:#white;
-    --cor-card:#962eb3;
-    --cor-legenda: #555555;
+    --cor-card:#da18a9;
+    --cor-legenda: #020202;
     --cor-clara: #white;
-    --cor-rodape: #c72f2f;
+    --cor-rodape: #df7cce;
 }
 
 body{
