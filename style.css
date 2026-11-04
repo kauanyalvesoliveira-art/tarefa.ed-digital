@@ -1,7 +1,7 @@
 :root{
     --cor-fundo:#e4bae4;
     --cor-texto:#222222;
-    --cor-principal:#c9539c;
+    --cor-principal:#9b4279;
     --cor-segundaria:#9b4d83;
     --cor-hover:#f045cb;
     --cor-superficie:#white;
@@ -10,7 +10,13 @@
     --cor-clara: #white;
     --cor-rodape: #df7cce;
 }
-
+.tema-ecuro{
+    --cor-fundo: #121212;
+    --cor-texto: #f5f5f5;
+    --cor-principal: #5805f1;
+    --cor-superficie: #1e1e1e;
+    --cor-card: #2b2530;
+}
 body{
 background-color: var(--cor-fundo);
 color: var(--cor-texto);
@@ -19,7 +25,7 @@ font-family: Arial, sans-serif;
 }
 
 header{
-    backgoun-color: var(--cor-principal);
+    background-color: var(--cor-principal);
     color: var(--cor-clara);
     text-align: center;
     padding: 30px;
@@ -58,8 +64,7 @@ nav- a:hover {
 }
 
 main {
-    width: 80%;
-    margin: alto;
+  
 }
 
 section {
@@ -101,7 +106,7 @@ footer{
 button {
 background-color: var(--cor-principal);
       color: var(--cor-clara);
-      border:none
+      border:none;
       padding: 10px 15px;
       border-radius: 8px;
       cursor: pointer;    
@@ -115,4 +120,20 @@ button:hover {
     display:block;
     width:fit-content;
     margin: 20px auto;
+}
+
+.cards-curiosidades{
+    display: flax;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.btn-tema{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 22 px;
 }
