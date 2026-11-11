@@ -1,7 +1,7 @@
 :root{
     --cor-fundo:#804480;
     --cor-texto:#050404;
-    --cor-principal:#f3b4db;
+    --cor-principal:#b63384;
     --cor-segundaria:#aa3186;
     --cor-hover:#f045cb;
     --cor-superficie:#white;
@@ -35,7 +35,7 @@ header{
 h1{
     font-size: 36px;
 
-} ❤️​ Curtir 0  ❤️​ Curtir 0 : 
+}
 
 h2{
     color: var(--cor-principal);
