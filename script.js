@@ -6,11 +6,12 @@ botoesCurtir.forEach(function(botaoCurtir){
     if (curtiu === false){
       contador.textContent++;
       curtiu = true;
-     } else {
+    } else {
       contador.textContent--;
       curtiu = false;
-     }
-   });
+    }
+   
+    }
 });
  
 const btnTema = document.querySelector(".btn-tema");
