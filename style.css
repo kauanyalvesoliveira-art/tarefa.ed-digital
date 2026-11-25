@@ -1,43 +1,48 @@
-:root{
-    --cor-fundo:#ffa2ff;
-    --cor-texto:#050404;
-    --cor-principal:#eeacd5;
-    --cor-segundaria:#aa3186;
-    --cor-hover:#a81c8a;
-    --cor-superficie:#white;
-    --cor-card:#f77ed8;
-    --cor-legenda: #020202;
-    --cor-clara: #white;
-    --cor-rodape: #ad4c9d;
-}
-.tema-ecuro{
-    --cor-fundo: #121212;
-    --cor-texto: #f5f5f5;
-    --cor-principal: #b69be7;
-    --cor-superficie: #1e1e1e;
-    --cor-card: #2b2530;
-}
-body{
-background-color: var(--cor-fundo);
-color: var(--cor-texto);
-font-family: Arial, sans-serif;
- margin: 0;
+:root {
+    --cor-fundo: #fff0f6;
+    --cor-texto: #3d2433;
+    --cor-principal: #d98ab5;
+    --cor-segundaria: #b85c8e;
+    --cor-hover: #963f70;
+    --cor-superficie: #fffafd;
+    --cor-card: #fce1ed;
+    --cor-legenda: #75445e;
+    --cor-clara: #ffffff;
+    --cor-rodape: #bd7099;
 }
 
-header{
+.tema-escuro {
+    --cor-fundo: #21151e;
+    --cor-texto: #fff0f6;
+    --cor-principal: #a96b91;
+    --cor-segundaria: #86506f;
+    --cor-hover: #b77a9e;
+    --cor-superficie: #30212c;
+    --cor-card: #493044;
+    --cor-legenda: #f2cadd;
+    --cor-clara: #ffffff;
+    --cor-rodape: #70465e;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header {
     background-color: var(--cor-principal);
     color: var(--cor-clara);
     text-align: center;
     padding: 30px;
-
 }
 
-h1{
+h1 {
     font-size: 36px;
-
 }
 
-h2{
+h2 {
     color: var(--cor-principal);
 }
 
@@ -57,15 +62,15 @@ nav a {
     padding: 10px 15px;
     margin: 5px;
     display: inline-block;
+    border-radius: 8px;
 }
 
-nav- a:hover {
-    background-color:#6b2d5c
+nav a:hover {
+    background-color: var(--cor-hover);
 }
 
-{ main 
-
-
+main {
+    padding: 20px;
 }
 
 section {
@@ -73,7 +78,6 @@ section {
     margin: 20px 0;
     padding: 20px;
     border-radius: 20px;
-
 }
 
 figcaption {
@@ -89,52 +93,51 @@ figcaption {
     margin: 25px 0;
     border-left: 6px solid var(--cor-principal);
     border-radius: 10px;
-
 }
 
-card h3{
+.card h3 {
     margin-top: 0;
 }
 
-footer{
-    background-color: var(--cor-principal);
+footer {
+    background-color: var(--cor-rodape);
     color: var(--cor-clara);
-    text-align:center;
+    text-align: center;
     padding: 20px;
     margin-top: 30px;
 }
 
 button {
-background-color: var(--cor-principal);
-      color: var(--cor-clara);
-      border:none;
-      padding: 10px 15px;
-      border-radius: 8px;
-      cursor: pointer;    
-}                                                
+    background-color: var(--cor-principal);
+    color: var(--cor-clara);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
 
 button:hover {
-    background-color: var(--)
+    background-color: var(--cor-hover);
 }
 
 .curtir {
-    display:block;
-    width:fit-content;
+    display: block;
+    width: fit-content;
     margin: 20px auto;
 }
 
-.cards-curiosidades{
-    display: flax;
+.cards-curiosidades {
+    display: flex;
     gap: 20px;
     flex-wrap: wrap;
 }
 
-.btn-tema{
+.btn-tema {
     position: fixed;
     right: 20px;
     bottom: 20px;
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    font-size: 22 px;
+    font-size: 22px;
 }
